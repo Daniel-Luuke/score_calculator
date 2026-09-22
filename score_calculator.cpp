@@ -11,5 +11,9 @@ int score1, score2, score3;
 int totalScore;
 double average;
 double percentage;
+
+//CONSTANT DECLARATION
+const int MAX_SCORE = 100;
+
     return 0;
 }
