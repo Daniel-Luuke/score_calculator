@@ -15,5 +15,17 @@ double percentage;
 //CONSTANT DECLARATION
 const int MAX_SCORE = 100;
 
+//================================
+//WELCOME BANNER
+cout << "======================================" << endl;
+cout <<" STUDENT SCORE CALCULATOR" << endl;
+cout << "======================================" << endl;
+
+//================================
+//QUESTION 1: STUDENT NAME
+cout << "Enter Student Name: ";
+getline(cin, studentName);
+
+
     return 0;
 }
