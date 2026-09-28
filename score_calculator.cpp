@@ -80,6 +80,15 @@ cout << "Average: "<<fixed<<setprecision(2) << average << endl;
 cout << "Percentage: "<< fixed << setprecision(2) << percentage << "%" << endl;
 cout << endl;
 
+//Determine pass or fail
+if(percentage >= 50){
+
+    cout << "Result: PASS" << endl;
+}
+else{
+    cout << "Result: FAIL" << endl;
+}
+cout<< "======================================" << endl;
 
 return 0;
 }
