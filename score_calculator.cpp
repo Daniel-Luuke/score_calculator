@@ -58,5 +58,28 @@ average = totalScore / 3.0;
 //================================
 percentage = (totalScore / 300.0) * 100;
 
+//================================
+// DISPLAY REPORT CARD
+//================================
+
+cout << endl;
+cout << "======================================" << endl;
+cout << " REPORT CARD" << endl;
+cout << "======================================" << endl;
+cout << endl;
+
+cout<< "Student: " << studentName << endl;
+cout<< "Course: " << course << endl;
+cout << endl;
+cout << "Test 1 Score: " << score1 <<"/" << MAX_SCORE << endl;
+cout << "Test 2 Score: " << score2 <<"/" << MAX_SCORE << endl;
+cout << "Test 3 Score: " << score3 <<"/" << MAX_SCORE << endl;
+cout << endl;
+cout << "Total: "<<totalScore<<"/300" << endl;
+cout << "Average: "<<fixed<<setprecision(2) << average << endl;
+cout << "Percentage: "<< fixed << setprecision(2) << percentage << "%" << endl;
+cout << endl;
+
+
 return 0;
 }
