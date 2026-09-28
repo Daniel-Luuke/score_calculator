@@ -43,7 +43,20 @@ cin >> score2;
 cout << "Enter score for Test 3:";
 cin >> score3;
 
+//================================
+//CALCULATION 1: TOTAL SCORE
+//================================
+totalScore = score1 + score2 + score3;
 
+//================================
+//CALCULATION 2: AVERAGE
+//================================
+average = totalScore / 3.0;
 
-    return 0;
+//================================
+//CALCULATION 3: PERCENTAGE
+//================================
+percentage = (totalScore / 300.0) * 100;
+
+return 0;
 }
