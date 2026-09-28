@@ -15,11 +15,11 @@ double percentage;
 //CONSTANT DECLARATION
 const int MAX_SCORE = 100;
 
-//================================
 //WELCOME BANNER
 cout << "======================================" << endl;
 cout <<" STUDENT SCORE CALCULATOR" << endl;
 cout << "======================================" << endl;
+cout << endl;
 
 //================================
 //QUESTION 1: STUDENT NAME
@@ -36,11 +36,11 @@ getline(cin, course);
 //================================
 //QUESTION 3: TEST SCORES
 //================================
-cout << "Enter score for Test 1:";
+cout << "Enter score for Test 1: ";
 cin >> score1;
-cout << "Enter score for Test 2:";
+cout << "Enter score for Test 2: ";
 cin >> score2;
-cout << "Enter score for Test 3:";
+cout << "Enter score for Test 3: ";
 cin >> score3;
 
 //================================
@@ -76,7 +76,7 @@ cout << "Test 2 Score: " << score2 <<"/" << MAX_SCORE << endl;
 cout << "Test 3 Score: " << score3 <<"/" << MAX_SCORE << endl;
 cout << endl;
 cout << "Total: "<<totalScore<<"/300" << endl;
-cout << "Average: "<<fixed<<setprecision(2) << average << endl;
+cout << "Average: "<< fixed << setprecision(2) << average << endl;
 cout << "Percentage: "<< fixed << setprecision(2) << percentage << "%" << endl;
 cout << endl;
 
